@@ -27,5 +27,5 @@ void main()
   }
   *dst = 0;
 
-  printf("Joining %s and %s we get %c\n", str1, str2, *(dst-2));
+  printf("Joining %s and %s we get %c\n", str1, str2, str3);
 }
