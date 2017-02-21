@@ -13,4 +13,9 @@ void main()
   printf("The area of a circle radius %f is %f\n", rad, area);
   printf("The sum of %d and %d is %d\n", 5, 2, ADD(5,2));
   printf("The sum of %d and %d is %d\n", 3, 7, ADD(3, 7));
+  #if 0
+    printf("Hey we be rockin!");
+  #else
+    printf("The blues is here to stay\n");
+  #endif
 }
